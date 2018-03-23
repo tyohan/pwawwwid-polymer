@@ -1,0 +1,834 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.11.0",
+  "hash": "a6647b85add673c8d5a8",
+  "time": 3985,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "app": "app.bundle.js"
+  },
+  "assets": [
+    {
+      "name": "app.bundle.js",
+      "size": 280318,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "emitted": true,
+      "isOverSizeLimit": true
+    },
+    {
+      "name": "webcomponents-loader.js",
+      "size": 3154,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "app": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "app.bundle.js"
+      ],
+      "isOverSizeLimit": true
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 774958,
+      "names": [
+        "app"
+      ],
+      "files": [
+        "app.bundle.js"
+      ],
+      "hash": "85a2f61e018cde0295f8",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/utils/boot.js",
+          "name": "./node_modules/@polymer/polymer/lib/utils/boot.js",
+          "index": 3,
+          "index2": 0,
+          "size": 104,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/legacy/polymer.dom.js",
+          "issuerId": null,
+          "issuerName": "./node_modules/@polymer/polymer/lib/legacy/polymer.dom.js",
+          "profile": {
+            "factory": 68,
+            "building": 111
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "./boot.js",
+              "loc": "1:0-19"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/boot.js",
+              "loc": "1:0-26"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "window.JSCompiler_renameProperty = function(prop, obj) { return prop; }\n\n/** @namespace */\nlet Polymer;\n"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "name": "./src/rd-app.js + 94 modules",
+          "index": 0,
+          "index2": 97,
+          "size": 774107,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": [
+            "RdApp"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/utils/unresolved.js",
+          "name": "./node_modules/@polymer/polymer/lib/utils/unresolved.js",
+          "index": 39,
+          "index2": 35,
+          "size": 234,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/legacy/legacy-element-mixin.js",
+          "issuerId": null,
+          "issuerName": "./node_modules/@polymer/polymer/lib/legacy/legacy-element-mixin.js",
+          "profile": {
+            "factory": 119,
+            "building": 69
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../utils/unresolved.js",
+              "loc": "8:0-32"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "function resolve() {\n  document.body.removeAttribute('unresolved');\n}\n\nif (document.readyState === 'interactive' || document.readyState === 'complete') {\n  resolve();\n} else {\n  window.addEventListener('DOMContentLoaded', resolve);\n}\n"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/font-roboto/roboto.js",
+          "name": "./node_modules/@polymer/font-roboto/roboto.js",
+          "index": 95,
+          "index2": 91,
+          "size": 513,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/paper-styles/typography.js",
+          "issuerId": null,
+          "issuerName": "./node_modules/@polymer/paper-styles/typography.js",
+          "profile": {
+            "factory": 164,
+            "building": 26
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+              "module": "./src/rd-app.js + 94 modules",
+              "moduleName": "./src/rd-app.js + 94 modules",
+              "type": "harmony import",
+              "userRequest": "../font-roboto/roboto.js",
+              "loc": "2:0-34"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "/**\n@license\nCopyright (c) 2015 The Polymer Project Authors. All rights reserved.\nThis code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt\nThe complete set of authors may be found at http://polymer.github.io/AUTHORS.txt\nThe complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt\nCode distributed by Google as part of the polymer project is also\nsubject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt\n*/\n;\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": null,
+          "module": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js",
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js",
+          "moduleName": "./src/rd-app.js",
+          "loc": "",
+          "name": "app",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/utils/boot.js",
+      "name": "./node_modules/@polymer/polymer/lib/utils/boot.js",
+      "index": 3,
+      "index2": 0,
+      "size": 104,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/legacy/polymer.dom.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@polymer/polymer/lib/legacy/polymer.dom.js",
+      "profile": {
+        "factory": 68,
+        "building": 111
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "./boot.js",
+          "loc": "1:0-19"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/boot.js",
+          "loc": "1:0-26"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3,
+      "source": "window.JSCompiler_renameProperty = function(prop, obj) { return prop; }\n\n/** @namespace */\nlet Polymer;\n"
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+      "name": "./src/rd-app.js + 94 modules",
+      "index": 0,
+      "index2": 97,
+      "size": 774107,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": [
+        "RdApp"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0
+    },
+    {
+      "id": 2,
+      "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/utils/unresolved.js",
+      "name": "./node_modules/@polymer/polymer/lib/utils/unresolved.js",
+      "index": 39,
+      "index2": 35,
+      "size": 234,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/polymer/lib/legacy/legacy-element-mixin.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@polymer/polymer/lib/legacy/legacy-element-mixin.js",
+      "profile": {
+        "factory": 119,
+        "building": 69
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../utils/unresolved.js",
+          "loc": "8:0-32"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "function resolve() {\n  document.body.removeAttribute('unresolved');\n}\n\nif (document.readyState === 'interactive' || document.readyState === 'complete') {\n  resolve();\n} else {\n  window.addEventListener('DOMContentLoaded', resolve);\n}\n"
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/font-roboto/roboto.js",
+      "name": "./node_modules/@polymer/font-roboto/roboto.js",
+      "index": 95,
+      "index2": 91,
+      "size": 513,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/node_modules/@polymer/paper-styles/typography.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@polymer/paper-styles/typography.js",
+      "profile": {
+        "factory": 164,
+        "building": 26
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/ytotting/Developments/Web/labs/wwwid-challenge/src/rd-app.js 5de42e9a1ae09fe063e24352c3867f22",
+          "module": "./src/rd-app.js + 94 modules",
+          "moduleName": "./src/rd-app.js + 94 modules",
+          "type": "harmony import",
+          "userRequest": "../font-roboto/roboto.js",
+          "loc": "2:0-34"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "/**\n@license\nCopyright (c) 2015 The Polymer Project Authors. All rights reserved.\nThis code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt\nThe complete set of authors may be found at http://polymer.github.io/AUTHORS.txt\nThe complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt\nCode distributed by Google as part of the polymer project is also\nsubject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt\n*/\n;\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
+Webpack Bundle Analyzer is started at http://127.0.0.1:8888
+Use Ctrl+C to close it
